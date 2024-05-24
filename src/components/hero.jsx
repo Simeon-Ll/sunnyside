@@ -7,7 +7,7 @@ function hero() {
     <div className='hero'>
       <Nav />
       <h1>WE ARE CREATIVES</h1>
-      <img src={arrow} alt="" width={'80px'} className='arrow'/>
+      <img src={arrow} alt="" className='arrow'/>
     </div>
   )
 }

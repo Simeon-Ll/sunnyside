@@ -51,21 +51,22 @@ h1,h2,h3,h4,h5,h6{
   color: #fff;
   text-align: center;
   position: absolute;
-  top: 35%;
+  top: 30%;
 }
 
 .arrow{
-  
+  width: 80px;
   animation-name: up-and-down;
   animation-timing-function: ease-in-out;
   animation-duration: 2000ms;
   animation-iteration-count: infinite;
+  margin-top: 250px;
   
 }
 
 @keyframes up-and-down {
   50%{
-    margin-bottom: -150px;
+    margin-bottom: -120px;
   }
   100%{
     margin-bottom: 0px;
